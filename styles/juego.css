@@ -31,6 +31,30 @@ button{
     border: 1px solid white;
 }
 
+button:focus{
+    background-color: red;
+}
+
 .none{
-    display: none;
+    display: none !important;
+}
+
+.gameOver{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://live.mrf.io/statics/i/ps/www.muylinux.com/wp-content/uploads/2014/01/mljuegos0.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameOver button{
+    background-color: black;   
+}
+
+.gameOver button:hover{
+    background-color: red;
+    color: white;
 }
