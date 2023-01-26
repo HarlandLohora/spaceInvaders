@@ -69,55 +69,55 @@ const gameOver = document.querySelector(".gameOver")
 //Cargamos las imagenes
 
 const heart = new Image()
-heart.src = "../assets/img/heart.png"
+heart.src = "./assets/img/heart.png"
 console.log(heart)
 
 const alien = new Image()
-alien.src = "../assets/img/alien.png"
+alien.src = "./assets/img/alien.png"
 
 const alien1 = new Image()
-alien1.src = "../assets/img/alien2.png"
+alien1.src = "./assets/img/alien2.png"
 
 const alien2 = new Image()
-alien2.src = "../assets/img/alien3.png"
+alien2.src = "./assets/img/alien3.png"
 
 const bullet = new Image()
-bullet.src = "../assets/img/bullet.png"
+bullet.src = "./assets/img/bullet.png"
 
 const naveD = new Image()
-naveD.src = "../assets/img/nave-d.png"
+naveD.src = "./assets/img/nave-d.png"
 
 const naveI = new Image()
-naveI.src = "../assets/img/nave-i.png"
+naveI.src = "./assets/img/nave-i.png"
 
 
 const coin0 = new Image()
-coin0.src = "../assets/img/0.gif"
+coin0.src = "./assets/img/0.gif"
 const coin1 = new Image()
-coin1.src = "../assets/img/1.gif"
+coin1.src = "./assets/img/1.gif"
 const coin2 = new Image()
-coin2.src = "../assets/img/2.gif"
+coin2.src = "./assets/img/2.gif"
 const coin3 = new Image()
-coin3.src = "../assets/img/3.gif"
+coin3.src = "./assets/img/3.gif"
 const coin4 = new Image()
-coin4.src = "../assets/img/4.gif"
+coin4.src = "./assets/img/4.gif"
 const coin5 = new Image()
-coin5.src = "../assets/img/5.gif"
+coin5.src = "./assets/img/5.gif"
 const coin6 = new Image()
-coin6.src = "../assets/img/6.gif"
+coin6.src = "./assets/img/6.gif"
 const coin7 = new Image()
-coin7.src = "../assets/img/7.gif"
+coin7.src = "./assets/img/7.gif"
 const coin8 = new Image()
-coin8.src = "../assets/img/8.gif"
+coin8.src = "./assets/img/8.gif"
 const coin9 = new Image()
-coin9.src = "../assets/img/9.gif"
+coin9.src = "./assets/img/9.gif"
 
 const coins = [coin0, coin1, coin2, coin3, coin4, coin5, coin6, coin7, coin8, coin9]
 //Sonidos
 
-const shoot = new Audio("../assets/sounds/shoot.mp3")
+const shoot = new Audio("./assets/sounds/shoot.mp3")
 
-const die = new Audio("../assets/sounds/die.mp3")
+const die = new Audio("./assets/sounds/die.mp3")
 
 
 //Arreglo aliens
